@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+
+} 
+
+
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/2nd\ netflix\ img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    /* height: 100vh; */
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 85%;
+    gap: 30px;
+    margin: auto;
+} 
+.sign {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 10px;
+}
+.sign a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-left: 30px;
+    background-color: transparent;
+}
+
+@media(max-width:483px){
+    .sign a{
+        width:90px;
+    }
+}
+
+@media(max-width:888px){
+    .email-singup{
+        width: 90%;
+    }
+}
+
+@media(max-width:467px){
+    .email-singup{
+        width: 90%;
+    }
+}
+
+
+/*......... header ends........... */
+
+/* .........curve line begins.......... */
+.curve-container{
+    position: relative;
+}
+.curve-line{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* border: solid 0.25rem rgba(255, 0, 0, 0.692); */
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    background-clip: padding-box;
+}
+
+.hero-section {
+    color: aliceblue;
+    display: flex;
+    line-height: 2.5em;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    /* margin-top: 90px; */
+}
+
+.hero-section h3 {
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+
+.email-singup{
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.email-singup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 50px;
+}
+.email-singup a{
+    background-color: red;
+    text-decoration: none;
+    border: 0;
+    color: white;
+    outline: 0;
+    font-size: 20px;
+    padding: 10px 50px;
+}
+.carousel.img{
+    display: flex;
+    
+}
+
+.body-c{
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.body-c h3{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    color: white;
+    padding-top: 20px;
+    /* border: 2px solid red; */
+}
+.body-c .him img{
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.him:hover{
+    scale: 1.1;
+    transition: 0.3s;
+}
+.him{
+    transition: 0.3s;
+}
+
+
+.cards-wrp {
+    background-color: black;
+    gap: 30px;
+    color: azure;
+    margin: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.cards-wrp h2{
+    margin: auto;
+    width: 85%;
+    padding: 15px;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    max-width: 1050px;
+    gap: 10px;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+.cards-bdy {
+    width: 50%;
+    line-height: 1.5em;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.235),rgba(255, 0, 0, 0.089) );
+    padding: 20px;
+}
+
+.cards-bdy svg{
+    display: flex;
+    float: right;
+    
+}
+
+/* media quary for card */
+
+@media(max-width:1000px){
+    .cards{
+        display: block;
+        width: 100%;
+        padding: 20px;
+        
+    }
+}
+
+@media(max-width:1024px){
+    .cards-bdy{
+        width: 100%;
+        height: 40vh;
+
+    }
+}
+
+/* media quary for create */
+
+
+@media(max-width:900px){
+    .create .intro{
+        width: 90%;
+    }
+}
+
+
+
+
+/* ..........accordon begins...... */
+.acc-wraper{
+    background-color: black;
+    /* margin-top: 70px; */
+}
+
+.accordion{
+    margin: auto;
+    width: 100%;
+    max-width: 1050px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+.accordion {
+    padding: 20px 0px;
+}
+.accordion li label:hover{
+    background-color: #303030f7;
+}
+
+.accordion li{
+    list-style-type: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    background: #303030b0;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+
+
+
+.create h3 {
+    color: white;
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.create form{
+    text-align: center;
+}
+
+.create form input{
+    width: 50%;
+    height: 65px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color:inherit;
+}
+
+.create form a {
+    padding: 25px 45px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* ----footer begins--------- */
+
+
+footer {
+    background-color: black;
+}
+
+.footer-wrapper {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    gap:100px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+
+.footer-head {
+    width: 85%;
+    margin: auto;
+    color: white;
+    padding: 70px 10px 30px 40px;
+}
+
+.footer-head a {
+    list-style-type: none;
+    color: white;
+}
+.footer-bdy {
+    line-height: 2em;
+}
+
+.footer-bdy ul li {
+    list-style-type: none;
+    color: white;
+}
+
+.footer-bdy ul li a {
+    color: white;
+}
+
+.option {
+    padding: 20px;
+}
+
+.option select{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}

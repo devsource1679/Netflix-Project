@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.faq-wrp{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    
+}
+
+.container h1{
+    padding: 20px 0px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ohr{
+    width: 99%;
+    margin: auto;
+}
+ 
+
+.second-ing{
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.help1{
+    color: white;
+    font-size: 15px;
+}
+.faq-img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.faq-img a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.faq-img a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.line{
+    border: thin solid white;
+    height: 25px;
+}
+
+.help{
+    font-size: 20px;
+    color: white;
+}
+
+.faq-2nd a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.Join{
+    padding: 10px 20px;
+    border: thin solid rgba(255, 255, 255, 0.345);
+    border-radius: 5px;
+}
+
+.Join:hover{
+    border: thin solid white;
+}
+
+.Sign{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.Sign:hover{
+    background-color: brown;
+}
+
+
+
+
+
+/* ---medai quary for nav bar--- */
+@media(max-width:120px){
+    .faq-wrp{
+        width: 100%;
+    }
+}
+@media(max-width:601px){
+    .faq-img {
+        display: none;
+    }
+}
+@media(max-width:600px){
+    .second-ing{
+        display: block;
+    }
+}
+/* ----end of nav bar---- */
+
+@media(max-width:1000px){
+    .arrange{
+        display: none;
+    }
+    .container .header{
+        width: 100%;
+    }
+    .container .okay{
+        width: 100%;
+    }
+    .container .arrang p{
+        width: 100%;
+    }
+    .container .list-it ul li a{
+        width: 100%;
+    }
+}
+
+@media(max-width:1000px){
+    .footer .footer-fsth{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media(max-width:1000px){
+    .footer .footer-fsth h3{
+        height: 10vh;
+        width: 100%;
+    }
+}
+@media(max-width:1000px){
+    .footer .footer-fsth .cus{
+        width: 100%;
+        border: 2px solid red;
+    }
+}
+
+.note{
+    padding: 20px;
+    border-left: 3px solid black;
+}
+
+.arrow a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 30px 20px;
+    font-size: 20px;
+    transform: translate(2s);
+}
+
+.arrange{
+    position: absolute;
+    border: thin solid black;
+    height: 60vh;
+    border-radius: 5px;
+    
+}
+
+
+.arrange ul li{
+    display: flex;
+    align-items: center;
+    list-style-type:none ; 
+    padding: 10px;
+}
+
+.arrange ul li a{
+    color: black;
+    padding: 10px;
+}
+.arrow a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.header{
+    width: 60%;
+    padding-left: 20px;
+}
+.header h1{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.container p{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.container h3{
+    padding: 0px 20px;
+}
+
+.list-it{
+    line-height: 2em;
+    font-size: 20px;
+}
+
+.list-it ul li a{
+    color: #e50914;
+    text-decoration: none;
+    /* padding: 20px; */
+}
+
+.list-it ul li a:hover{
+    text-decoration: underline;
+    color: #e50914;
+}
+
+.list-it ul{
+    padding: 30px;
+}
+
+
+
+.okay{
+    display: flex;
+    gap: 10px;
+    width: 70%;
+}
+
+.arranges p a{
+    text-decoration: none;
+}
+
+.arranges a{
+    color: #e50914;
+}
+
+.arranges a:hover{
+    text-decoration: underline;
+    color: #e50914;
+}
+
+
+.arrang p{
+    width: 70%;
+}
+
+.arrang p a{
+    text-decoration: none;
+}
+.arrang a{
+    color: #e50914;
+}
+
+.arrang p a:hover{
+    text-decoration: underline;
+    color: #e50914
+}
+
+
+
+.note a{
+    color: #e50914;
+    text-decoration: none;
+}
+
+.note a:hover{
+    text-decoration: underline;
+    color: #e50914;
+}
+
+.yes{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.yes a{
+    color: #000;
+}
+
+
+
+.footer{
+    background: linear-gradient(10deg, rgba(229, 9, 20, 0) 58%, rgb(229, 9, 20) 128%), #000;
+    color: white;
+}
+
+.footer-fsth{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+.cus{
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.cus:hover{
+    background-color: rgba(255, 255, 255, 0.534);
+}
+
+
+select{
+    padding: 10px 40px;
+    border: thin solid white;
+    margin: 20px;
+    color: white;
+    background-color: black;
+}
+
+select option{
+    background-color: white;
+    color: black;
+}
+select:hover{
+    background-color: rgba(255, 255, 255, 0.489);
+}
+
+.footer-txt{
+    line-height: 1.5em;
+    padding: 20px;
+}
+.footer-txt ul li{
+    list-style-type: none;
+}
+
+.footer-txt ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-txt ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}

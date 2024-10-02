@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper-drp{
+    height: 0;
+    
+}
+.dropdown-head{
+    display: flex;
+    gap: 10px;
+    line-height: 2.5em;
+    margin: auto;
+    /* width: 80%; */
+    /* border: 2px solid red; */
+    background-color: black;
+}
+
+.dropdown-head .dropdown-body ul li{
+    list-style-type: none;
+}
+
+.dropdown-head .dropdown-body ul li a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown-body{
+    margin: auto;
+}
+
+.hh3{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.826);
+    padding: 30px 0px;
+    color: white;
+}
+

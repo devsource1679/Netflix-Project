@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    /* background-size: 100%; */
+    background-image: url(https://media.netflix.com/static/images/streams-bg.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    height: 150vh;
+    z-index: -1;
+}
+.media-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    color: white;
+    /* border: 2px solid yellow; */
+    /* position: static; */
+    /* z-index: 1; */
+}
+
+/* .media-body span{
+   /* align-items: center; 
+}*/
+.acent{
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    /* padding-bottom: 70px; */
+    text-align: center;
+    border: 2px solid blueviolet;
+}
+.disok ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding: 10px;
+    align-items: center;
+}
+.disok ul a{
+    text-decoration: none;
+    color: white;
+    /* transition: 0.35s; */
+}
+
+.apply{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.log{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.disok span{
+    display: flex;
+    gap: 10px;
+}
+
+.disok ul li:hover{
+    background-color: rgba(255, 255, 255, 0.094);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.15s;
+}
+/* end of the header */
+
+.hero-section h3{
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.5em;
+    font-weight: 700;
+    color: white;
+}
+.arrange a{
+    /* border: solid red; */
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 1em;
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* drop down section */
+
+.wrapper-drp{
+    display: none;
+}
+.dropdown-head{
+    display: flex;
+    gap: 10px;
+    line-height: 2.5em;
+    margin: auto;
+   
+    background-color: black;
+}
+
+.dropdown-head .dropdown-body ul li{
+    list-style-type: none;
+}
+
+.dropdown-head .dropdown-body ul li a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown-body{
+    margin: auto;
+}
+
+.hh3{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.826);
+    padding: 30px 0px;
+    color: white;
+}
+
+.english:focus .wrapper-drp{
+    display: block !important;
+}
+
+/* drp down */
+
+.wrapper-drp{
+    height: 0;
+    
+}
+.dropdown-head{
+    display: flex;
+    gap: 10px;
+    line-height: 2.5em;
+    margin: auto;
+    /* width: 80%; */
+    /* border: 2px solid red; */
+    background-color: black;
+}
+
+.dropdown-head .dropdown-body ul li{
+    list-style-type: none;
+}
+
+.dropdown-head .dropdown-body ul li a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown-body{
+    margin: auto;
+}
+
+.hh3{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.826);
+    padding: 30px 0px;
+    color: white;
+}
